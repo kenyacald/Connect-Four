@@ -1,9 +1,12 @@
 // Players
 var yellowPlayer = "y"
 var redPlayer = "r"
-var currPlayer = yellowPlayer
+var player = yellowPlayer
 
 
+
+var playBoard;
+var gameOver = false;
 
 
 

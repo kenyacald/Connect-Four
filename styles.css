@@ -7,9 +7,24 @@ body {
 }
 
 #playboard {
-    height: 500px;
-    width: 600px;
+    height: 540px;
+    width: 630px;
     background-color: blue;
     margin: 0 auto;
-    border: navy;
+    border: 10px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell-empty {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    border: 5px solid navy;
+}
+
+.red {
+    background-color: red;
 }
